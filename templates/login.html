@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<h1>Login</h1><p class="small">Demo accounts: student1 / Student@12345, lecturer1 / Lecturer@12345</p><form method="post">{{ form.hidden_tag() }}{{ form.username.label }}{{ form.username() }}{{ form.password.label }}{{ form.password() }}<button>Login</button></form>{% endblock %}

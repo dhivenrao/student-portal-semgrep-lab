@@ -1,0 +1,2 @@
+{% extends 'base.html' %}{% block content %}<h1>Audit Logs</h1><p class="small">Latest 100 security-relevant events.</p><pre>{% for line in lines %}{{ line }}
+{% endfor %}</pre>{% endblock %}

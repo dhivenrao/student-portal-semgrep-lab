@@ -1,0 +1,14 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f4f6f9; color: #222; }
+nav { background: #102a43; padding: 12px 24px; display: flex; gap: 18px; align-items: center; }
+nav a, nav span { color: white; text-decoration: none; font-weight: 600; }
+.container { max-width: 980px; margin: 28px auto; background: white; padding: 28px; border-radius: 12px; box-shadow: 0 2px 12px #0001; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+.card { border: 1px solid #d9e2ec; border-radius: 10px; padding: 18px; background: #fbfdff; }
+input, textarea, select { width: 100%; padding: 10px; margin: 6px 0 14px; border: 1px solid #bcccdc; border-radius: 6px; box-sizing: border-box; }
+button, .button { background: #0b6bcb; color: white; border: 0; padding: 10px 16px; border-radius: 6px; text-decoration: none; cursor: pointer; }
+table { width: 100%; border-collapse: collapse; margin-top: 14px; }
+th, td { border-bottom: 1px solid #e0e6ef; padding: 10px; text-align: left; vertical-align: top; }
+.flash { padding: 10px; margin-bottom: 12px; border-radius: 6px; background: #eef7ff; }
+.danger { background:#ffe8e8; } .success { background:#e8fff0; } .warning { background:#fff8db; }
+pre { background:#111827; color:#e5e7eb; padding:14px; overflow:auto; border-radius:8px; }
+.small { color: #52606d; font-size: 0.9em; }

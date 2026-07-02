@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<h1>Assignment Upload</h1><form method="post" enctype="multipart/form-data">{{ form.hidden_tag() }}{{ form.title.label }}{{ form.title() }}{{ form.file.label }}{{ form.file() }}<p class="small">Allowed: PDF, DOCX, PPTX, MP4, TXT. Max 10 MB.</p><button>Submit Assignment</button></form>{% endblock %}

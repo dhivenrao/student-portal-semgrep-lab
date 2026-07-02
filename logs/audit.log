@@ -1,0 +1,6 @@
+2026-06-25T03:40:50.817148Z | user=student1 | ip=127.0.0.1 | action=login_success | role=student
+2026-06-25T03:41:26.076680Z | user=student1 | ip=127.0.0.1 | action=logout | 
+2026-06-25T03:41:43.710189Z | user=student1 | ip=127.0.0.1 | action=login_success | role=student
+2026-06-25T03:41:59.140139Z | user=student1 | ip=127.0.0.1 | action=message_sent | recipient_id=2
+2026-06-25T03:42:21.761029Z | user=student1 | ip=127.0.0.1 | action=logout | 
+2026-06-25T03:42:28.500301Z | user=lecturer1 | ip=127.0.0.1 | action=login_success | role=lecturer
